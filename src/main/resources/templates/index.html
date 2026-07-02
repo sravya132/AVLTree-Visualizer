@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AVL Tree Visualizer</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+    <div class="logo-icon">🌿</div>
+
+    <h2>AVL</h2>
+
+    <p>Visualizer</p>
+
+</div>
+
+        <nav>
+
+             <a href="/" class="active">
+
+                <i class="ri-home-4-line"></i>
+
+                Visualizer
+
+            </a>
+
+            <a href="/learn">
+
+    <i class="ri-book-open-line"></i>
+
+    Learn AVL
+
+        </a>
+
+            <a href="/rotations">
+
+    <i class="ri-repeat-line"></i>
+
+    Rotations
+
+</a>
+
+        </nav>
+
+        <div class="quote">
+
+            <p>
+
+                “Balance in every node,
+
+                elegance in every algorithm.”
+
+            </p>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="content">
+
+        <!-- HEADER -->
+
+        <header>
+
+            <div>
+
+                <h1>
+
+                    AVL Tree Visualizer
+
+                </h1>
+
+                <p>
+
+                    Visualize AVL balancing in real time.
+
+                </p>
+
+            </div>
+
+            <button class="theme-btn">
+
+                <i class="ri-sun-line"></i>
+
+            </button>
+
+        </header>
+
+
+
+        <!-- CONTROL CARD -->
+
+        <section class="control-card">
+
+            <input
+
+                    type="number"
+
+                    id="value"
+
+                    placeholder="Enter value..."
+
+            >
+
+            <button onclick="insertNode()">
+
+                <i class="ri-add-line"></i>
+
+                Insert
+
+            </button>
+
+            <button onclick="deleteNode()">
+
+                <i class="ri-delete-bin-line"></i>
+
+                Delete
+
+            </button>
+
+            <button>
+
+                <i class="ri-search-line"></i>
+
+                Search
+
+            </button>
+
+            <button>
+
+                <i class="ri-refresh-line"></i>
+
+                Reset
+
+            </button>
+
+        </section>
+
+
+
+        <section class="info-banner">
+
+    <h2>Balance is Beauty.</h2>
+
+    <p>
+        AVL Trees automatically maintain balance after every insertion
+        and deletion using rotations, ensuring efficient search,
+        insertion, and deletion in O(log n) time.
+    </p>
+
+</section>
+
+        
+
+
+
+        <!-- TREE AREA -->
+
+        <section class="tree-card">
+
+            <svg
+
+                    id="tree"
+
+                    width="1200"
+
+                    height="700">
+
+            </svg>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>

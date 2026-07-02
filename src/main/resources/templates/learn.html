@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Learn AVL Tree</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<div class="content">
+
+    <h1>🌿 Learn AVL Tree</h1>
+
+    <br>
+
+    <div class="card">
+
+        <h2>What is an AVL Tree?</h2>
+
+        <p>
+            An AVL Tree is a self-balancing Binary Search Tree (BST) introduced by
+            Adelson-Velsky and Landis in 1962. It automatically maintains its balance
+            after every insertion and deletion so that searching remains efficient.
+        </p>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Why use an AVL Tree?</h2>
+
+        <ul>
+
+            <li>✔ Faster searching due to balanced height.</li>
+
+            <li>✔ Guarantees O(log n) Search.</li>
+
+            <li>✔ Guarantees O(log n) Insertion.</li>
+
+            <li>✔ Guarantees O(log n) Deletion.</li>
+
+            <li>✔ Prevents the tree from becoming skewed.</li>
+
+        </ul>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>AVL Properties</h2>
+
+        <ul>
+
+            <li>Every node stores its height.</li>
+
+            <li>Balance Factor = Height(Left) − Height(Right).</li>
+
+            <li>Balance Factor must always be -1, 0, or +1.</li>
+
+            <li>If balance exceeds this range, rotations are performed.</li>
+
+        </ul>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Time Complexity</h2>
+
+        <table style="width:100%; text-align:center; border-collapse:collapse;">
+
+            <tr>
+
+                <th>Operation</th>
+
+                <th>Complexity</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Search</td>
+
+                <td><strong>O(log n)</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Insert</td>
+
+                <td><strong>O(log n)</strong></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Delete</td>
+
+                <td><strong>O(log n)</strong></td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Applications of AVL Trees</h2>
+
+        <ul>
+
+            <li>📁 Database indexing</li>
+
+            <li>🗂 File systems</li>
+
+            <li>📚 Dictionary & Spell Checker</li>
+
+            <li>🌐 Memory management</li>
+
+            <li>🔍 Searching large datasets</li>
+
+        </ul>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Advantages</h2>
+
+        <ul>
+
+            <li>High search efficiency.</li>
+
+            <li>Automatically balanced.</li>
+
+            <li>Predictable performance.</li>
+
+            <li>Suitable for frequently searched data.</li>
+
+        </ul>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Disadvantages</h2>
+
+        <ul>
+
+            <li>Insertion and deletion are more complex than a normal BST.</li>
+
+            <li>Extra memory is required to store height information.</li>
+
+            <li>Frequent rotations may slightly reduce update performance.</li>
+
+        </ul>
+
+    </div>
+
+    <br>
+
+    <div class="card">
+
+        <h2>Interesting Fact</h2>
+
+        <p>
+
+            AVL Trees were the <strong>first self-balancing Binary Search Trees</strong>.
+            They are named after their inventors,
+            <strong>Georgy Adelson-Velsky</strong> and
+            <strong>Evgenii Landis</strong>, who introduced the data structure in 1962.
+
+        </p>
+
+    </div>
+
+    <br>
+
+    <a href="/">⬅ Back to Visualizer</a>
+
+</div>
+
+</body>
+
+</html>
