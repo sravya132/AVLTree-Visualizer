@@ -1,4 +1,4 @@
-# 🌿 AVL Tree Visualizer
+# AVL Tree Visualizer
 
 The AVL Tree Visualizer is a full-stack web application built to understand how AVL Trees maintain balance after insertion and deletion operations. It provides a simple and interactive way to visualize tree structure changes while learning the concepts of self-balancing binary search trees.
 
@@ -6,7 +6,7 @@ The project is developed using **Java** and **Spring Boot** for the backend, whi
 
 ---
 
-## 📖 Why I Built This Project
+## Why I Built This Project
 
 AVL Trees are one of the most important self-balancing data structures, but understanding rotations and balancing from theory alone can be difficult.
 
@@ -22,7 +22,7 @@ I built this project to strengthen my understanding of:
 
 ---
 
-## ✨ Features
+## Features
 
 - Insert nodes into an AVL Tree
 - Delete nodes from the AVL Tree
@@ -35,7 +35,7 @@ I built this project to strengthen my understanding of:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - Java
@@ -57,7 +57,7 @@ I built this project to strengthen my understanding of:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The user enters a value from the web interface.
 2. The frontend sends a request to the Spring Boot REST API.
@@ -69,15 +69,15 @@ I built this project to strengthen my understanding of:
 
 ---
 
-## 📚 Pages
+## Pages
 
-### 🌳 Visualizer
+### Visualizer
 Perform AVL Tree operations and view the tree structure dynamically.
 
-### 📖 Learn AVL
+### Learn AVL
 Provides an introduction to AVL Trees, their properties, time complexity, applications, advantages, and disadvantages.
 
-### 🔄 Rotations
+### Rotations
 Explains the four AVL balancing rotations:
 - LL Rotation
 - RR Rotation
@@ -114,7 +114,7 @@ http://localhost:7070/
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src
@@ -131,21 +131,9 @@ src
 │       ├── learn.html
 │       └── rotations.html
 ```
-
 ---
 
-## 📸 Screenshots
-
-- Home Page
-- AVL Tree Visualization
-- Learn AVL Page
-- Rotations Page
-
-*(Add screenshots here after uploading them.)*
-
----
-
-## 💡 Future Improvements
+## Future Improvements
 
 - Search node functionality
 - Tree traversal visualization
@@ -156,7 +144,7 @@ src
 
 ---
 
-## 🎯 What I Learned
+## What I Learned
 
 Through this project, I improved my understanding of:
 
@@ -169,10 +157,4 @@ Through this project, I improved my understanding of:
 - MVC architecture
 - Git and GitHub workflow
 
----
 
-## 👩‍💻 Author
-
-**Bairi Sravya Goud**
-
-GitHub: https://github.com/sravya132
