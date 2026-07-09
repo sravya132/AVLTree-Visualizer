@@ -86,7 +86,7 @@ Explains the four AVL balancing rotations:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 
